@@ -1,0 +1,122 @@
+/* Blocking some stupid fics */
+
+.work-20963498,
+.work-12292116,
+.work-16264226,
+.work-24559057,
+.work-16619540,
+.work-22221814 {
+  display: none !important;
+}
+
+/* Scrolling on super long tags */
+
+li.blurb .tags {
+  max-height: 5em;
+  overflow-y: auto;
+  font-size: .75em;
+}
+
+li.blurb .fandoms {
+  max-height: 4em;
+  overflow-y: auto;
+  font-size: .75em;
+}
+
+li.blurb .header h5.heading {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Changing color for the site header and body of the site */
+
+div#header {
+  background-color: #00b4d8 !important;
+}
+
+#header .primary {
+  background: #00b4d8 !important;
+}
+
+div#outer {
+  color: #000;
+}
+
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header h1.heading::before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  vertical-align: sub;
+}
+
+#header h1.heading::before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: " ";
+  background: url(https://scp-wiki.wdfiles.com/local--files/main/logo_250.png);
+  background-size: 30px 30px;
+  vertical-align: sub;
+}
+
+#header .logo {
+  display: none;
+}
+
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading a::before {
+  content: "S.C.P. Foundation";
+  font-family: "Bauhaus Hv BT";
+  color: #eee;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading sup::before {
+  content: "Secure. Contain. Protect.";
+  visibility: visible;
+  font-family: "Trebuchet MS", Trebuchet, Verdana, Arial, Helvetica;
+  color: #f0f0c0;
+}
+
+#header .primary a.dropdown-toggle {
+  color: #FFFFFF !important;
+}
+
+body {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+a {
+  font-family: "Roboto Condensed", Helvetica, sans-serif !important;
+  font-weight: 400;
+}
+
+a:hover {
+  transition-duration: .2s;
+  color: #111;
+}
+
+h4.heading {
+  text-align: center;
+}
+
+h5.fandoms.heading {
+  text-align: center;
+}
+
+p.datetime {
+  display: none;
+}
